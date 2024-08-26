@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #f4e4ba;
+    text-align: center;
+  }
+  
+  .container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 23.5rem;
+  }
+  
+  .game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+  }
+  
+  .box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.3);
+    font-size: 8vmin;
+    color: #b0413e;
+    background-color: white;
+  }
+  
+  #reset-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+  }
+  
+  #new-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+  }
+  
+  #msg {
+    font-size: 5vmin;
+  }
+  
+  .msg-container {
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+  }
+  
+  .hide {
+    display: none;
+  }
+
+/* Player's Name */
+
+.Name {
+  margin-left: 5rem;
+  background-color: white;
+  border-radius: 1rem;
+  padding: 0 2rem 1.75rem 2rem;
+  box-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.3);;
+}
+
+.player {
+  width: 15rem;
+  margin-top: 5px;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  border: 1px solid lightgray;
+  font-size: 15px;
+  outline: none;
+}
+
+#heading {
+  font-size: 25px;
+  padding-top: 2rem;
+}
+
+.playName {
+  margin-top: 10px;
+}
+
+#st-btn {
+  padding: 1rem;
+  margin-top: 1rem;
+  font-size: 1rem;
+  background-color: #191913;
+  color: #fff;
+  border-radius: 1rem;
+  border: none;
+}
+
+.hidden {
+  display: none;
+}
